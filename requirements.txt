@@ -1,0 +1,4 @@
+websockets
+keyboard
+colorama
+aiohttp
