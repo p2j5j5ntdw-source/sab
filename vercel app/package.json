@@ -1,0 +1,14 @@
+{
+  "name": "roblox-brainrot-joiner",
+  "version": "1.0.0",
+  "description": "Simple Roblox server joiner for mobile and desktop",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python -m http.server 3000",
+    "build": "echo 'No build needed - static site'"
+  },
+  "keywords": ["roblox", "joiner", "brainrot"],
+  "author": "",
+  "license": "MIT"
+}
+
