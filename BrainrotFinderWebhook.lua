@@ -32,8 +32,8 @@ end
 -- ⚙️ CONFIGURATION - EDIT THESE!
 local CONFIG = {
     -- Discord Webhooks (PASTE YOUR WEBHOOK URLS HERE!)
-    WEBHOOK_1M_10M = "https://discord.com/api/webhooks/1432090724140056637/k3sl5Gq0UuI9rt3VmlLQfqqBoT776GIGY8bvx91jFPXIbinZGoAHEA_rNgMq4Bvy6exa",
-    WEBHOOK_10M_PLUS = "https://discord.com/api/webhooks/1432099374929940540/AQWfRwiho8V3YdJ9okc2eYHN5gw2Tu0SGNlFwejk30p42Hc_LC-6GE-dV9gHD1Lld6mr",
+    WEBHOOK_1M_10M = "https://discord.com/api/webhooks/1459674069049016513/KGRlgW8lkLgw-ia4ogTpi-NLpNV4zHvSPjnnzWEcEFEiSBiaC_kt4GHAtkmmr-n2Q2tV",
+    WEBHOOK_10M_PLUS = "https://discord.com/api/webhooks/1475618010151653406/Y97rmrCRrsglMsiaPHxplPN534BYNeNTRc1mU03ClbNfmuiMFvVwdmrzlKLxVKedX4lW",
     
     -- Roblox Game Settings
     PLACE_ID = "109983668079237",  -- Steal A Brainrot Place ID
@@ -743,4 +743,5 @@ end)
 print("✅ Brainrot Finder is now running!")
 print(string.format("🔍 Scanning every %d seconds...", CONFIG.SCAN_INTERVAL))
 print("💡 Found bases will be sent to your Discord webhook!")
+
 
