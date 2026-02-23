@@ -3,13 +3,13 @@
 # Custom solution for automated server discovery and notifications
 
 
-DISCORD_TOKEN = "MTQzMTc0MjUzNzU3OTYzMDcwNA.GPk84F.FD076vWQNdwKytpVbWcLEDywsOUEjOiMZeMGBM"
+DISCORD_TOKEN = "MTQ3MDgyMjIyODc4MTQzNzAyOQ.GXV1VU.azttxBhuZ4nS4TnusAh_XlP4BgPO8D_v71mVA8"
 # Your Discord account token for monitoring
 # How to get: Discord Settings → Advanced → Developer Mode → Console
 
 
-DISCORD_WEBHOOK_1M_10M = "https://discord.com/api/webhooks/1432090724140056637/k3sl5Gq0UuI9rt3VmlLQfqqBoT776GIGY8bvx91jFPXIbinZGoAHEA_rNgMq4Bvy6exa"  # Webhook for 1M-10M tier
-DISCORD_WEBHOOK_10M_PLUS = "https://discord.com/api/webhooks/1432099374929940540/AQWfRwiho8V3YdJ9okc2eYHN5gw2Tu0SGNlFwejk30p42Hc_LC-6GE-dV9gHD1Lld6mr"  # Webhook for 10M+ tier
+DISCORD_WEBHOOK_1M_10M = "https://discord.com/api/webhooks/1459674069049016513/KGRlgW8lkLgw-ia4ogTpi-NLpNV4zHvSPjnnzWEcEFEiSBiaC_kt4GHAtkmmr-n2Q2tV"  # Webhook for 1M-10M tier
+DISCORD_WEBHOOK_10M_PLUS = "https://discord.com/api/webhooks/1475618010151653406/Y97rmrCRrsglMsiaPHxplPN534BYNeNTRc1mU03ClbNfmuiMFvVwdmrzlKLxVKedX4lW"  # Webhook for 10M+ tier
 # Notification destinations for different value tiers
 # Create webhooks: Server Settings → Integrations → Webhooks → New Webhook
 # Separate channels recommended for better organization
@@ -64,14 +64,15 @@ WEBSOCKET_PORT = 51948  # Local WebSocket port for in-game automation
 DISCORD_WS_URL = "wss://gateway.discord.gg/?encoding=json&v=9"  # Discord Gateway
 
 # Data source channel configuration
-DATA_SOURCE_SERVER_ID = "1401550662335991908"  # Primary data source Discord server
+DATA_SOURCE_SERVER_ID = "1411884101493063772"  # Primary data source Discord server
 DATA_SOURCE_CHANNELS = {
-    "1m-10m": ["1404759535293431849"],      # Standard tier channels
-    "10m_plus": ["1404759584450678865"],    # Premium tier channels
+    "1m-10m": ["1459673759723294813"],      # Standard tier channels
+    "10m_plus": ["1475617681146384427"],    # Premium tier channels
     "under_500k": ["1401774863974268959"],  # Low tier (archived)
     "500k_1m": ["1401775012083404931"],     # Mid tier (archived)
 }
 
 # ============================================================================
 # End of Configuration
+
 # ============================================================================
